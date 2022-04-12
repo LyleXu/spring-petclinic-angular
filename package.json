@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "npm uninstall -g angular-cli @angular/cli && npm cache clean && npm install -g @angular/cli@latest && npm install --save-dev @angular/cli@latest && npm install && ng serve --port 8080",
+    "start": "npm uninstall -g angular-cli @angular/cli && npm install -g @angular/cli@latest && ng serve --port 8080",
     "build": "ng build",
     "test": "ng test",
     "test-headless": "ng test --no-watch --no-progress --browsers=ChromeHeadlessCI",
